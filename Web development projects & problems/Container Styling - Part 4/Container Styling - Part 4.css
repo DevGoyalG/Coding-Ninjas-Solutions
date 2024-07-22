@@ -1,0 +1,16 @@
+body{
+    background:coral;
+}
+
+.container{
+    width:50%;
+    height:200px;
+    border:1px solid black;
+    background:aqua;
+    transition:background 0.3s, transform 0.3s;
+}
+
+.container:hover{
+    background:blueviolet;
+    transform:rotate(180deg);
+}
