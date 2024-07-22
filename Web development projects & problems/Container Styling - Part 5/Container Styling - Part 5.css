@@ -1,0 +1,26 @@
+.container {
+    width: 50%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: aqua;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.container:hover {
+    background-color: blueviolet;
+    transform: rotate(180deg);
+}
+
+body {
+    background-color: coral;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: yellow;
+    }
+
+    .container {
+        background-color: red;
+    }
+}
