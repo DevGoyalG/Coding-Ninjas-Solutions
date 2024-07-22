@@ -1,0 +1,14 @@
+body{
+    background:coral;
+}
+
+.container{
+    width:50%;
+    height:200px;
+    border:1px solid black;
+    background:aqua;
+}
+
+.container:hover{
+    background:blueviolet;
+}
